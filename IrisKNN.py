@@ -55,7 +55,7 @@ for x in range(1,x_train.shape[0]):
 import numpy as np
 accuracy_values = np.array(accuracy_values)
 
-plt.plot(accuracy_values[:,0], accuracy_values[:,1])
+plt.scatter(accuracy_values[:,0], accuracy_values[:,1])
 plt.xlabel("K")
 plt.ylabel("Accuracy")
 plt.show()
